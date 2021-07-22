@@ -8,15 +8,19 @@
 import UIKit
 
 class ViewControllerIdeas: UIViewController {
-    @IBOutlet weak var tableView: UITableView!
     
-    @IBAction func didTapButton1(_ sender: UIButton) {
-        
-        let vc = UIViewController()
-        vc.view.backgroundColor = .red
-        
-        navigationController?.pushViewController(vc, animated: true)
-    }
+    @IBOutlet weak var tableView: UITableView!
+//
+//    @IBAction func didTapButton1(_ sender: UIButton) {
+//
+//        let vc = UIViewController()
+//        vc.view.backgroundColor = .red
+//
+//        navigationController?.pushViewController(vc, animated: true)
+//    }
+//    
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

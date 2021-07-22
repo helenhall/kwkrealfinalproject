@@ -1,5 +1,5 @@
 //
-//  ViewControllerProgress.swift
+//  ViewControllerIdeas2.swift
 //  TabandNav
 //
 //  Created by Helen Hall on 7/21/21.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-
- 
-class ViewControllerProgress: UIViewController {
-
+class ViewControllerIdeas3: UIViewController {
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
+      
 
         // Do any additional setup after loading the view.
     }

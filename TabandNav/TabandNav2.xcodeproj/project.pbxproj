@@ -20,6 +20,7 @@
 		2402236626A7E0EA0017B89B /* ViewControllerGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2402236526A7E0EA0017B89B /* ViewControllerGallery.swift */; };
 		2402236A26A865910017B89B /* ViewControllerProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2402236926A865910017B89B /* ViewControllerProgress.swift */; };
 		242614E826A8716200910AFA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242614E726A8716200910AFA /* CollectionViewCell.swift */; };
+		2497833A26A900E3000FE2E5 /* ViewControllerIdeas3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2497833926A900E3000FE2E5 /* ViewControllerIdeas3.swift */; };
 		CC5BAB5226A79EDF009C680A /* UploadScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAB5126A79EDF009C680A /* UploadScreen.swift */; };
 		CC5BAB5426A79F7A009C680A /* UploadImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAB5326A79F7A009C680A /* UploadImageController.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		2402236526A7E0EA0017B89B /* ViewControllerGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGallery.swift; sourceTree = "<group>"; };
 		2402236926A865910017B89B /* ViewControllerProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProgress.swift; sourceTree = "<group>"; };
 		242614E726A8716200910AFA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2497833926A900E3000FE2E5 /* ViewControllerIdeas3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerIdeas3.swift; sourceTree = "<group>"; };
 		CC5BAB5126A79EDF009C680A /* UploadScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadScreen.swift; sourceTree = "<group>"; };
 		CC5BAB5326A79F7A009C680A /* UploadImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				2402232E26A759DF0017B89B /* AppDelegate.swift */,
 				2402233026A759DF0017B89B /* SceneDelegate.swift */,
 				2402233426A759DF0017B89B /* Main.storyboard */,
+				2497833926A900E3000FE2E5 /* ViewControllerIdeas3.swift */,
 				242614E726A8716200910AFA /* CollectionViewCell.swift */,
 				2402236926A865910017B89B /* ViewControllerProgress.swift */,
 				2402236526A7E0EA0017B89B /* ViewControllerGallery.swift */,
@@ -282,6 +285,7 @@
 				242614E826A8716200910AFA /* CollectionViewCell.swift in Sources */,
 				2402233926A759DF0017B89B /* TabandNav.xcdatamodeld in Sources */,
 				2402236226A7E0AD0017B89B /* ViewControllerHome.swift in Sources */,
+				2497833A26A900E3000FE2E5 /* ViewControllerIdeas3.swift in Sources */,
 				2402232F26A759DF0017B89B /* AppDelegate.swift in Sources */,
 				2402236426A7E0D00017B89B /* ViewControllerIdeas.swift in Sources */,
 				CC5BAB5426A79F7A009C680A /* UploadImageController.swift in Sources */,
