@@ -23,8 +23,6 @@
 		2497833A26A900E3000FE2E5 /* ViewControllerIdeas3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2497833926A900E3000FE2E5 /* ViewControllerIdeas3.swift */; };
 		CC5BAB5226A79EDF009C680A /* UploadScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAB5126A79EDF009C680A /* UploadScreen.swift */; };
 		CC5BAB5426A79F7A009C680A /* UploadImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5BAB5326A79F7A009C680A /* UploadImageController.swift */; };
-		CCDAD2C426A9A812007A00DE /* NewIdea.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDAD2C326A9A812007A00DE /* NewIdea.swift */; };
-		CCDAD2C626A9B897007A00DE /* Idea2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDAD2C526A9B897007A00DE /* Idea2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +65,6 @@
 		2497833926A900E3000FE2E5 /* ViewControllerIdeas3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerIdeas3.swift; sourceTree = "<group>"; };
 		CC5BAB5126A79EDF009C680A /* UploadScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadScreen.swift; sourceTree = "<group>"; };
 		CC5BAB5326A79F7A009C680A /* UploadImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageController.swift; sourceTree = "<group>"; };
-		CCDAD2C326A9A812007A00DE /* NewIdea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIdea.swift; sourceTree = "<group>"; };
-		CCDAD2C526A9B897007A00DE /* Idea2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idea2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +95,6 @@
 		2402232226A759DF0017B89B = {
 			isa = PBXGroup;
 			children = (
-				CCDAD2C526A9B897007A00DE /* Idea2.swift */,
-				CCDAD2C326A9A812007A00DE /* NewIdea.swift */,
 				2402232D26A759DF0017B89B /* TabandNav */,
 				2402234726A759E10017B89B /* TabandNavTests */,
 				2402235226A759E10017B89B /* TabandNavUITests */,
@@ -295,10 +289,8 @@
 				2402232F26A759DF0017B89B /* AppDelegate.swift in Sources */,
 				2402236426A7E0D00017B89B /* ViewControllerIdeas.swift in Sources */,
 				CC5BAB5426A79F7A009C680A /* UploadImageController.swift in Sources */,
-				CCDAD2C626A9B897007A00DE /* Idea2.swift in Sources */,
 				2402236626A7E0EA0017B89B /* ViewControllerGallery.swift in Sources */,
 				CC5BAB5226A79EDF009C680A /* UploadScreen.swift in Sources */,
-				CCDAD2C426A9A812007A00DE /* NewIdea.swift in Sources */,
 				2402236A26A865910017B89B /* ViewControllerProgress.swift in Sources */,
 				2402233126A759DF0017B89B /* SceneDelegate.swift in Sources */,
 			);
