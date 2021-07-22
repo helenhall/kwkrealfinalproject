@@ -21,7 +21,6 @@
                         <segue destination="bxM-hG-zT7" kind="relationship" relationship="viewControllers" id="gcL-DL-OeB"/>
                         <segue destination="vzY-7c-p37" kind="relationship" relationship="viewControllers" id="baG-nC-c9F"/>
                         <segue destination="dud-0S-hR1" kind="relationship" relationship="viewControllers" id="dOo-Ks-WuC"/>
-                        <segue destination="wP7-4l-mi8" kind="relationship" relationship="viewControllers" id="bvk-gl-brV"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xrE-6r-gN3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -48,55 +47,21 @@
         <!--Home-->
         <scene sceneID="hGr-fr-QiK">
             <objects>
-                <viewController id="7Jr-ww-kQ5" customClass="ViewControllerHome" customModule="TabandNav" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7Jr-ww-kQ5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IbY-rX-JEm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1nh-WJ-DZ9">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tfu-sx-khH">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OXB-e8-HvA">
-                                                <rect key="frame" x="0.0" y="-1" width="375" height="960.5"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Wn7-cO-gmZ">
-                                                <rect key="frame" x="0.0" y="962" width="375" height="15.5"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="App opens to here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18F-9o-vCg">
-                                                <rect key="frame" x="0.0" y="979.5" width="375" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1000" id="Djs-FG-yXR"/>
-                                        </constraints>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="tfu-sx-khH" firstAttribute="centerX" secondItem="nQC-Vk-c5v" secondAttribute="centerX" id="0oW-wp-JgQ"/>
-                                    <constraint firstItem="tfu-sx-khH" firstAttribute="leading" secondItem="nQC-Vk-c5v" secondAttribute="leading" id="4jw-yY-Cra"/>
-                                    <constraint firstItem="tfu-sx-khH" firstAttribute="bottom" secondItem="nQC-Vk-c5v" secondAttribute="bottom" id="7KZ-Gd-Dcl"/>
-                                    <constraint firstItem="tfu-sx-khH" firstAttribute="trailing" secondItem="nQC-Vk-c5v" secondAttribute="trailing" id="7kx-vb-0Eh"/>
-                                    <constraint firstItem="tfu-sx-khH" firstAttribute="width" secondItem="Mlh-5e-kga" secondAttribute="width" id="C6D-5e-64c"/>
-                                    <constraint firstItem="tfu-sx-khH" firstAttribute="top" secondItem="nQC-Vk-c5v" secondAttribute="top" id="PKc-5d-7xP"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="nQC-Vk-c5v"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="Mlh-5e-kga"/>
-                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="App opens to here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18F-9o-vCg">
+                                <rect key="frame" x="117" y="296" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KAV-c2-Tai"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="1nh-WJ-DZ9" secondAttribute="bottom" id="HfF-OQ-bef"/>
-                            <constraint firstItem="1nh-WJ-DZ9" firstAttribute="top" secondItem="IbY-rX-JEm" secondAttribute="top" id="ViQ-lw-5mp"/>
-                            <constraint firstItem="1nh-WJ-DZ9" firstAttribute="trailing" secondItem="KAV-c2-Tai" secondAttribute="trailing" id="edZ-8A-zTH"/>
-                            <constraint firstItem="1nh-WJ-DZ9" firstAttribute="leading" secondItem="KAV-c2-Tai" secondAttribute="leading" id="hXd-tU-ITx"/>
-                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Home" id="LHL-a8-r6H"/>
@@ -104,13 +69,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hju-96-4sj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1618.4000000000001" y="1273.313343328336"/>
+            <point key="canvasLocation" x="-1617" y="1274"/>
         </scene>
-        <!--Ideas-->
+        <!--Page 2-->
         <scene sceneID="Ylz-Hw-E6y">
             <objects>
                 <navigationController id="vzY-7c-p37" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Ideas" image="lightbulb" catalog="system" id="Pu1-3I-XVq"/>
+                    <tabBarItem key="tabBarItem" title="Page 2" image="lightbulb" catalog="system" id="Pu1-3I-XVq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="AfB-Td-MTh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -140,40 +105,28 @@
             </objects>
             <point key="canvasLocation" x="77" y="548"/>
         </scene>
-        <!--Gallery-->
-        <scene sceneID="hL0-8B-EU4">
-            <objects>
-                <navigationController id="wP7-4l-mi8" customClass="ViewControllerGa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Gallery" image="person" catalog="system" id="Nq5-WY-mcM"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XrL-E9-Wzz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="EvC-bl-5WB" kind="relationship" relationship="rootViewController" id="Rvf-X0-ZNv"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WRV-SE-0oJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="972" y="547"/>
-        </scene>
         <!--Second-->
         <scene sceneID="p6G-I6-0nC">
             <objects>
-                <viewController id="CpS-Sg-VRU" customClass="ViewControllerIdeas" customModule="TabandNav" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CpS-Sg-VRU" customClass="ViewController" customModule="TabandNav" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i97-sR-0Rs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qq-et-0UG">
-                                <rect key="frame" x="146" y="311" width="86" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3j-BK-z18">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4k4-mM-iX2">
+                                <rect key="frame" x="164" y="349" width="86" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="didTapButton1:" destination="CpS-Sg-VRU" eventType="touchUpInside" id="n20-iw-6Yd"/>
+                                    <action selector="didTapButton:" destination="CpS-Sg-VRU" eventType="touchUpInside" id="Ryj-ts-y8F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -230,30 +183,11 @@
             </objects>
             <point key="canvasLocation" x="166" y="1288"/>
         </scene>
-        <!--View Controller Gallery-->
-        <scene sceneID="zcX-sQ-CEy">
-            <objects>
-                <viewController id="EvC-bl-5WB" customClass="ViewControllerGallery" customModule="TabandNav" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WR8-wk-2Cr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="0RE-zj-qgB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="IC3-2r-qdK"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ovb-nx-oHl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1057" y="1273"/>
-        </scene>
     </scenes>
     <resources>
         <image name="camera.rotate" catalog="system" width="128" height="94"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="lightbulb" catalog="system" width="113" height="128"/>
-        <image name="pencil" catalog="system" width="128" height="113"/>
-        <image name="person" catalog="system" width="128" height="117"/>
-        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
